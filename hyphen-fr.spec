@@ -1,7 +1,7 @@
 Name: hyphen-fr
 Summary: French hyphenation rules
 Version: 2.0
-Release: 7%{?dist}
+Release: 8%{?dist}
 Source: http://www.dicollecte.org/download/fr/hyph_fr_2-0.zip
 Group: Applications/Text
 URL: http://www.dicollecte.org/download.php?prj=fr
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.0-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
